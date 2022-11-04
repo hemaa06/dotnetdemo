@@ -13,7 +13,7 @@ stages:
     - script: dotnet build --configuration $(buildconfiguration)
       displaytime: 'dotnet build $(buildConfiguration)'
     - script: dotnet test
-      displayName: 'dotnet test'  
+      displayName: 'dotnet test' 
  
 
 
