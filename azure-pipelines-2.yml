@@ -11,9 +11,9 @@ stages:
   stage:
     steps:
     - script: dotnet build --configuration $(buildconfiguration)
-      displaytime: 'dotnet build $(buildconfiguration)'
+      displaytime: 'dotnet build $(buildConfiguration)'
     - script: dotnet test
-      displayname: 'dotnet test'  
+      displayName: 'dotnet test'  
  
 
 
